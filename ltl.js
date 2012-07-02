@@ -106,8 +106,3 @@ function listToLight(selector) {
     };
     ltl.init();
 }
-
-$(document).ready(function () {
-    'use strict';
-    listToLight();
-});
