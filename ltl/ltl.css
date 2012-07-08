@@ -35,6 +35,7 @@
     -webkit-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     transition: opacity 0.5s;
+    z-index: 66;
 }
 
 .ltl-scroller {
@@ -48,6 +49,7 @@
     -webkit-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     transition: opacity 0.5s;
+    z-index: 66;
 }
 
 .ltl-scroller:hover, .ltl-close-button:hover {

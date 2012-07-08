@@ -12,7 +12,7 @@ With listToLight, any images in lists will be 'lightboxified'. This means that t
 
 Include the 'ltl' directory in your static tree. Include the files comme ça:
 
-    <link href="/path/to/js/ltl/ltl.min.css" rel="stylesheet" media="screen" type="text/css">
+    <link rel="stylesheet" media="screen" type="text/css" href="/path/to/js/ltl/ltl.min.css">
     <script src="/path/to/js/ltl/ltl.min.js"></script>
     
 Use the following to lightboxify all images in lists:
