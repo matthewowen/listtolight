@@ -15,7 +15,7 @@ The slideshow can be scrolled and closed using the buttons provided or using you
 Include the 'ltl' directory in your static tree. Include the files comme ça:
 
     <link rel="stylesheet" media="screen" type="text/css" href="/path/to/js/ltl/ltl.min.css">
-    <script src="/path/to/js/ltl/ltl.min.js"></script>
+    <script type="text/javascript" src="/path/to/js/ltl/ltl.min.js"></script>
     
 Use the following to lightboxify all images in lists:
 
