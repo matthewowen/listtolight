@@ -3,7 +3,8 @@
     width: 112px;
     height: 84px;
     overflow: hidden;
-    padding-right: 4px;
+    padding-right: 5px;
+    padding-left: 0;
 }
 
 .ltl-scroller-thumbs li img {
