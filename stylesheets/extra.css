@@ -1,0 +1,11 @@
+.ltl-scroller-thumbs li {
+    display: inline-block;
+    width: 112px;
+    height: 84px;
+    overflow: hidden;
+    padding-right: 4px;
+}
+
+.ltl-scroller-thumbs li img {
+     width: 120px;
+}
