@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="listToLight : Easy lightbox slideshows with a minimum of markup and classes" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>listToLight</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/matthewowen/listToLight">View on GitHub</a>
+
+          <h1 id="project_title">listToLight</h1>
+          <h2 id="project_tagline">Easy lightbox slideshows with a minimum of markup and classes</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/matthewowen/listToLight/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/matthewowen/listToLight/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>listToLight.js</h1>
+
+<p>listToLight is a super simple lightbox script.</p>
+
+<p>Most lightbox scripts require you to add classes (or other attributes) to the images that you want to be lightboxified.</p>
+
+<p>This is fine, most of the time. But sometimes, you don't want to do this. If you're using Jekyll, for example, adding classes means using HTML. This is a pain - it's nicer just to use Markdown syntax.</p>
+
+<p>With listToLight, any images in lists will be 'lightboxified'. This means that the list will turn into a scrollable slideshow, activated by clicking on an image. The original list will also have a class added, so that you can style the inline images appropriately (eg turning them into thumbnails).</p>
+
+<h2>Usage</h2>
+
+<p>Include the 'ltl' directory in your static tree. Include the files comme ça:</p>
+
+<pre><code>&lt;link href="/path/to/js/ltl/ltl.min.css" rel="stylesheet" media="screen" type="text/css"&gt;
+&lt;script src="/path/to/js/ltl/ltl.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Use the following to lightboxify all images in lists:</p>
+
+<pre><code>$(document).ready(function () {
+    'use strict';
+   listToLight();
+});
+</code></pre>
+
+<p>Use the following to lightboxify only images in lists within containers with class 'foo':</p>
+
+<pre><code>$(document).ready(function () {
+    'use strict';
+   listToLight('.foo');
+});
+</code></pre>
+
+<h2>What it doesn't do.</h2>
+
+<p>Your thumbnails are just going to be your regular images, only scaled down. This isn't ideal, but in this day and age of high quality images, this isn't that big a deal. And it means no waiting to load when people do click to increase the size.</p>
+
+<h2>An example</h2>
+
+<ul>
+<li><img src="http://placekitten.com/400/400" alt="Kitten"></li>
+<li><img src="http://placekitten.com/300/300" alt="Kitten"></li>
+<li><img src="http://placekitten.com/500/300" alt="Kitten"></li>
+<li><img src="http://placekitten.com/400/500" alt="Kitten"></li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">listToLight maintained by <a href="https://github.com/matthewowen">matthewowen</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
