@@ -14,7 +14,7 @@ The slideshow can be scrolled and closed using the buttons provided or using you
 
 listToLight requires jQuery, so make sure that you're using it:
     
-    https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 Include the 'ltl' directory in your static tree. Include the files comme ça:
 
