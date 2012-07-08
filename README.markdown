@@ -38,3 +38,21 @@ Use the following to lightboxify only images in lists within containers with cla
 ## What it doesn't do.
 
 Your thumbnails are just going to be your regular images, only scaled down. This isn't ideal, but in this day and age of high quality images, this isn't that big a deal. And it means no waiting to load when people do click to increase the size.
+
+## License and copyright
+
+Copyright 2012 Matthew Owen
+Distributed under the terms of the GNU General Public License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
