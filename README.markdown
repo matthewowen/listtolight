@@ -19,7 +19,7 @@ Use the following to lightboxify all images in lists:
 
     $(document).ready(function () {
         'use strict';
-       listToLight('.post .main');
+       listToLight();
     });
 
 Use the following to lightboxify only images in lists within containers with class 'foo':
