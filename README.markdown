@@ -12,6 +12,10 @@ The slideshow can be scrolled and closed using the buttons provided or using you
 
 ## Usage
 
+listToLight requires jQuery, so make sure that you're using it:
+    
+    https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+
 Include the 'ltl' directory in your static tree. Include the files comme ça:
 
     <link rel="stylesheet" media="screen" type="text/css" href="/path/to/js/ltl/ltl.min.css">
