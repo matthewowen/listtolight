@@ -8,6 +8,8 @@ This is fine, most of the time. But sometimes, you don't want to do this. If you
 
 With listToLight, any images in lists will be 'lightboxified'. This means that the list will turn into a scrollable slideshow, activated by clicking on an image. The original list will also have a class added, so that you can style the inline images appropriately (eg turning them into thumbnails).
 
+The slideshow can be scrolled and closed using the buttons provided or using your keyboard (left arrow/right arrow/esc)
+
 ## Usage
 
 Include the 'ltl' directory in your static tree. Include the files comme ça:
