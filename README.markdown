@@ -10,10 +10,10 @@ With listToLight, any images in lists will be 'lightboxified'. This means that t
 
 ## Usage
 
-Include this folder in your static tree. Include the files comme ça:
+Include the 'ltl' directory in your static tree. Include the files comme ça:
 
-    <link href="/path/to/js/listToLight/ltl.min.css" rel="stylesheet" media="screen" type="text/css">
-    <script src="/path/to/js/listToLight/ltl.min.js"></script>
+    <link href="/path/to/js/ltl/ltl.min.css" rel="stylesheet" media="screen" type="text/css">
+    <script src="/path/to/js/ltl/ltl.min.js"></script>
     
 Use the following to lightboxify all images in lists:
 
