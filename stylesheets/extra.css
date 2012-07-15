@@ -1,12 +1,27 @@
 .ltl-scroller-thumbs li {
-    display: inline-block;
+    display: block;
     width: 112px;
     height: 84px;
     overflow: hidden;
     padding-right: 5px;
     padding-left: 0;
+    float: left;
 }
 
 .ltl-scroller-thumbs li img {
     width: 112px;
+}
+
+.ltl-scroller-thumbs:before,
+.ltl-scroller-thumbs:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.ltl-scroller-thumbs:after {
+    clear: both;
+}
+
+.ltl-scroller-thumbs {
+    *zoom: 1;
 }
